@@ -197,7 +197,6 @@ section p, article p {
 .between {
     position: absolute;
     width: 24%;
-    top: 140%;
     left: 58%;
 }
 
