@@ -21,14 +21,18 @@ header {
     padding-bottom: 3%;
     width: 45%;
 }
-header h2 {
+.center-text {
     position: absolute;
     font-family: 'Libre Baskerville';
     font-size: 7.3em;
-    padding-left: 30%;
+    right: 0;
     top: 43.75%;
     margin: 0;
     opacity: 0.9;
+    left: 0;
+    width: 43%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .white-border {
@@ -37,6 +41,9 @@ header h2 {
     left: 28.5%;
     position: absolute;
     top: 43.75%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
 
 .upper-menu {
@@ -71,7 +78,7 @@ nav h3:last-child {
     font-size: 5em;
     font-family: 'Libre Baskerville';
     position: absolute;
-    top:-0.8em;
+    top:-1.6em;
     padding: 0;
     left: 45%;
 }
@@ -84,7 +91,7 @@ nav h3:last-child {
     text-align: center;
     text-transform: uppercase;
     position: absolute;
-    left: 47%;
+    left: 46.5%;
     top: 2.5em;
 }
 
