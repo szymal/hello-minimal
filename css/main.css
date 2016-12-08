@@ -13,14 +13,14 @@ header {
     background-size: cover;
     position: relative;
     height: 46.5em;
-    
 }
 
-.clear-p{
+.clear-p {
     clear: both;
     padding-bottom: 3%;
     width: 45%;
 }
+
 .center-text {
     position: absolute;
     font-family: 'Libre Baskerville';
@@ -77,7 +77,7 @@ nav h3:last-child {
     font-size: 5em;
     font-family: 'Libre Baskerville';
     position: absolute;
-    top:-1.6em;
+    top: -1.6em;
     padding: 0;
     left: 45%;
 }
@@ -94,7 +94,8 @@ nav h3:last-child {
     top: 2.5em;
 }
 
-section h2, article h2 {
+section h2,
+article h2 {
     font-size: 5em;
     font-family: 'Libre Baskerville';
     margin-left: 18%;
@@ -122,9 +123,8 @@ article h2 {
     float: left;
 }
 
-
-
-section p, article p {
+section p,
+article p {
     font-family: 'Karla', sans-serif;
     font-size: 1.4em;
     margin-left: 18%;
@@ -141,7 +141,7 @@ section p, article p {
     margin-left: 10%;
 }
 
-.offer-nav h3{
+.offer-nav h3 {
     font-family: 'Karla', sans-serif;
     font-size: 1.6em;
     font-weight: 700;
@@ -165,7 +165,7 @@ section p, article p {
     margin-right: 18%;
 }
 
-.offer-nav h4:last-child{
+.offer-nav h4:last-child {
     border-bottom: 0;
     padding-bottom: 1.75%;
 }
@@ -214,7 +214,6 @@ section p, article p {
     background-image: url(..//img/about%20bg.png);
     background-size: cover;
     height: 84.5em;
-    
 }
 
 .grey-border {
@@ -235,7 +234,8 @@ section p, article p {
     width: 14.5%;
 }
 
-article input, button {
+article input,
+button {
     margin-left: 18%;
     display: block;
     width: 31%;
@@ -243,7 +243,7 @@ article input, button {
     padding: 0;
 }
 
-article input{
+article input {
     border-bottom: 0.1em solid #cdcccc;
     font-size: 1.6em;
     font-family: 'Karla', sans-serif;
@@ -271,10 +271,10 @@ button {
     opacity: 0.9;
 }
 
-input, textarea {
+input,
+textarea {
     color: #E2E2E1;
 }
-
 
 footer {
     background-image: url(..//img/Layer%207%20copy.png);
@@ -283,13 +283,15 @@ footer {
     display: flex;
 }
 
-.demo-icon.icon-twitter, .demo-icon.icon-facebook, .demo-icon.icon-pinterest-1 {
+.demo-icon.icon-twitter,
+.demo-icon.icon-facebook,
+.demo-icon.icon-pinterest-1 {
     color: grey;
     font-size: 3em;
     position: absolute;
     top: 10px;
     left: 10px;
-} 
+}
 
 .last-article {
     position: relative;
@@ -321,12 +323,15 @@ figcaption {
     color: #4e4e4e;
 }
 
-
-.demo-icon.icon-facebook::before, .demo-icon.icon-pinterest-1::before, .demo-icon.icon-twitter::before {
+.demo-icon.icon-facebook::before,
+.demo-icon.icon-pinterest-1::before,
+.demo-icon.icon-twitter::before {
     margin: 0;
 }
 
-.twitter, .pinterest, .facebook {
+.twitter,
+.pinterest,
+.facebook {
     border-radius: 100%;
     background-color: #FFFFFF;
     width: 5em;
@@ -334,13 +339,13 @@ figcaption {
     position: relative;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
-    
 }
 
 .twitter {
     margin-left: 40%;
 }
 
-.pinterest, .facebook {
+.pinterest,
+.facebook {
     margin-left: 5%;
 }
